@@ -1,2 +1,3 @@
-# duo
-repo for testing &amp; planning project
+# highlow
+
+simple high/low game for practice
