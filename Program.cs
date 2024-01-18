@@ -19,11 +19,9 @@ while (firstNumber == secondNumber)
 
 Console.WriteLine($"The first number is {firstNumber}. Is the second number higher (A) or lower (B) than {firstNumber}?");
 
-//get user input -- .toLowerCase/ .toUpperCase on A/B to make input case insensitive
-
 do
 {
-    if (/*user input was A/a*/)
+    if (Console.ReadKey().Key == ConsoleKey.A) //if user has pressed the A key
     {
         if (secondNumber > firstNumber)
         {
@@ -37,7 +35,7 @@ do
         }
     }
 
-    if (/*user input was B/b*/)
+    if (Console.ReadKey().Key == ConsoleKey.B) //if user has pressed the B key
     {
         if (secondNumber < firstNumber)
         {
