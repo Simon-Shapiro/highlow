@@ -8,9 +8,14 @@
 
 Random number = new Random();
 
-//the second number must not be equal to the first number. Add logic loop such that if they are equal, new values are assigned
 int firstNumber = number.Next(1, 15);
 int secondNumber = number.Next(1, 15);
+
+//this while loop resets the value of firstNumber if it gets assigned to the same number as secondNumber
+while (firstNumber == secondNumber) 
+{
+    firstNumber = number.Next(1, 15);
+}
 
 Console.WriteLine($"The first number is {firstNumber}. Is the second number higher (A) or lower (B) than {firstNumber}?");
 
