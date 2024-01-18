@@ -12,41 +12,37 @@ int firstNumber = number.Next(1, 15);
 int secondNumber = number.Next(1, 15);
 
 //this while loop resets the value of firstNumber if it gets assigned to the same number as secondNumber
-while (firstNumber == secondNumber) 
+while (firstNumber == secondNumber)
 {
     firstNumber = number.Next(1, 15);
 }
 
 Console.WriteLine($"The first number is {firstNumber}. Is the second number higher (A) or lower (B) than {firstNumber}?");
 
-do
+if (Console.ReadKey().Key == ConsoleKey.A) //if user has pressed the A key
 {
-    if (Console.ReadKey().Key == ConsoleKey.A) //if user has pressed the A key
+    if (secondNumber > firstNumber)
     {
-        if (secondNumber > firstNumber)
-        {
-            Console.WriteLine($"You got it, the second number was higher!");
-            Console.WriteLine("Press Esc to exit");
-        }
-        else
-        {
-            Console.WriteLine($"Too bad, the second number was lower :C");
-            Console.WriteLine("Press Esc to exit");
-        }
+        Console.WriteLine($"You got it, the second number was higher!");
+        Console.WriteLine("Press Esc to exit");
     }
-
-    if (Console.ReadKey().Key == ConsoleKey.B) //if user has pressed the B key
+    else
     {
-        if (secondNumber < firstNumber)
-        {
-            Console.WriteLine($"You got it, the second number was lower!");
-            Console.WriteLine("Press Esc to exit");
-        }
-        else
-        {
-            Console.WriteLine($"Too bad, the second number was higher :C");
-            Console.WriteLine("Press Esc to exit");
-        }
+        Console.WriteLine($"Too bad, the second number was lower :C");
+        Console.WriteLine("Press Esc to exit");
     }
+}
 
-} while (Console.ReadKey().Key != ConsoleKey.Escape); //this do...while runs so long as the user has not pressed escape
+if (Console.ReadKey().Key == ConsoleKey.B) //if user has pressed the B key
+{
+    if (secondNumber < firstNumber)
+    {
+        Console.WriteLine($"You got it, the second number was lower!");
+        Console.WriteLine("Press Esc to exit");
+    }
+    else
+    {
+        Console.WriteLine($"Too bad, the second number was higher :C");
+        Console.WriteLine("Press Esc to exit");
+    }
+}

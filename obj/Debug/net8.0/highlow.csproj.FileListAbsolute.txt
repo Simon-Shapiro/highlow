@@ -1,0 +1,15 @@
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\bin\Debug\net8.0\highlow.exe
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\bin\Debug\net8.0\highlow.deps.json
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\bin\Debug\net8.0\highlow.runtimeconfig.json
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\bin\Debug\net8.0\highlow.dll
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\bin\Debug\net8.0\highlow.pdb
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.AssemblyInfoInputs.cache
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.AssemblyInfo.cs
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.csproj.CoreCompileInputs.cache
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.sourcelink.json
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.dll
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\refint\highlow.dll
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.pdb
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\highlow.genruntimeconfig.cache
+C:\Users\Simon\OneDrive\Desktop\Mes Fichiers\Development\GitHub\highlow\obj\Debug\net8.0\ref\highlow.dll
