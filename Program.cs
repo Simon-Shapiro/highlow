@@ -28,10 +28,12 @@ do
         if (secondNumber > firstNumber)
         {
             Console.WriteLine($"You got it, the second number was higher!");
+            Console.WriteLine("Press Esc to exit");
         }
         else
         {
             Console.WriteLine($"Too bad, the second number was lower :C");
+            Console.WriteLine("Press Esc to exit");
         }
     }
 
@@ -40,12 +42,13 @@ do
         if (secondNumber < firstNumber)
         {
             Console.WriteLine($"You got it, the second number was lower!");
+            Console.WriteLine("Press Esc to exit");
         }
         else
         {
             Console.WriteLine($"Too bad, the second number was higher :C");
-
+            Console.WriteLine("Press Esc to exit");
         }
     }
 
-} while (/*user has not hit esc to end the game*/);
+} while (Console.ReadKey().Key != ConsoleKey.Escape); //this do...while runs so long as the user has not pressed escape
