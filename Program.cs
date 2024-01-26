@@ -45,4 +45,10 @@ if (Console.ReadKey().Key == ConsoleKey.B) //if user has pressed the B key
         Console.WriteLine($"Too bad, the second number was higher :C");
         Console.WriteLine("Press Esc to exit");
     }
+
+    //stops execution on pressing escape -- not currently functional (pressing escape does not stop execution as expected)
+    if (Console.ReadKey().Key == ConsoleKey.Escape)
+    {
+        return;
+    }
 }
