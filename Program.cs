@@ -11,7 +11,7 @@ Random number = new Random();
 int firstNumber = number.Next(1, 15);
 int secondNumber = number.Next(1, 15);
 
-//this while loop resets the value of firstNumber if it gets assigned to the same number as secondNumber
+//this while loop resets the value of firstNumber if it gets assigned the same value as secondNumber
 while (firstNumber == secondNumber)
 {
     firstNumber = number.Next(1, 15);
